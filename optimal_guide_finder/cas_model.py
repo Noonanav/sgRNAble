@@ -133,7 +133,7 @@ class CasModel():
             mers_omitted_tally += target_list_output[1]
             genome_dictionary[filename][full_pam] = target_sequence_list
 
-        logger.error(str(str(mers_omitted_tally) + ' k-mers with non-nucleotide characters omitted from hashtable'))
+        logger.error(str(str(mers_omitted_tally) + ' k-mers with non-nucleotide characters omitted from target list'))
 
         self.genome_dictionary = genome_dictionary
 
